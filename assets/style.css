@@ -1,0 +1,71 @@
+.productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.productos #table{
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.productos #table thead {
+    background-color:gray;
+    text-align: center;
+}
+
+.productos #table thead th{
+    padding: 10px;
+
+}
+.productos #table tbody{
+    background-color:lightgray;
+}
+.productos #table tbody td{
+    padding: 10px;
+} 
+.productos #table tbody td{
+    border: 1px solid rgb(153, 153, 153);
+} 
+
+.contactame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 40px;
+    background-color: #ffffffcc;
+}
+
+.textarea{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 85%;
+}
+
+.form-group {
+    width: 50%; 
+}
+
+.input{
+    padding:10px;
+    border-radius: 10px;
+}
+
+.button-enviar{
+    margin-top: 5px;
+    padding:8px 28px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    width: 100px;
+    border:none;
+}
+.button-enviar:hover{
+    background-color: #808080a2;
+}
+.form-group h3{
+    margin-bottom: 40px;
+}
