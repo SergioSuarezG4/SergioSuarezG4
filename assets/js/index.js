@@ -1,6 +1,3 @@
-
-
-
 fetch('data/taller.json')
     .then((response) => response.json())
     .then((data) => {
